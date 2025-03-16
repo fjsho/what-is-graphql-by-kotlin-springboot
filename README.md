@@ -14,26 +14,6 @@ ToDoリストの基本的なCRUD操作を通じて、GraphQLの基本概念と�
 ## プロジェクト構成
 
 ```
-graphql-demo/
-├── build.gradle.kts              # プロジェクト依存関係
-├── src/
-│   ├── main/
-│   │   ├── kotlin/
-│   │   │   └── com/example/graphqldemo/
-│   │   │       ├── GraphqlDemoApplication.kt   # アプリケーションエントリポイント
-│   │   │       ├── controller/
-│   │   │       │   └── TodoController.kt       # GraphQLエンドポイント
-│   │   │       ├── model/
-│   │   │       │   └── Todo.kt                 # データモデル
-│   │   │       └── repository/
-│   │   │           └── TodoRepository.kt       # データアクセス層
-│   │   └── resources/
-│   │       ├── application.properties          # アプリケーション設定
-│   │       └── graphql/
-│   │           └── schema.graphqls             # GraphQLスキーマ定義
-│   └── test/                                   # テストコード
-```
-```
 .
 ├── README.md
 ├── build.gradle.kts
